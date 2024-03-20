@@ -1,5 +1,3 @@
-Deer은 Animal Data Lab. 데이터분석을 위한 프레임워크입니다.
-
 # version records
 
-1.0.0 : 
+1.0.0 : first version
