@@ -1,5 +1,9 @@
 library(tidyverse)
 library(lubridate)
-library(janitor)
 
-df <- readxl::read_excel("data/example.xlsx")
+getwd()
+# setwd("../")
+
+df <- readxl::read_excel("data/your_data_set.xlsx") %>% janitor::clean_names(ascii = FALSE)
+
+save(df, file = "data/df.RData")
